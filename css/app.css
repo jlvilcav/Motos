@@ -1,0 +1,183 @@
+
+body {
+	background-color: #fff;
+    color: #243238;
+    font-family: "PT Sans",sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0;
+    min-width: 320px;
+    /*overflow: hidden;*/
+    width: 100%;
+    background-image: url(https://livedemo00.template-help.com/woocommerce_53811/wp-content/themes/theme53811/images/body-background.jpg);
+    background-repeat: repeat;
+    background-position: top center;
+    background-attachment: scroll;
+ 	padding-top: 50px;
+    font-family: Lato;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.menu-container .container {
+	background-color: #000000;
+}
+
+
+
+.navbar-inverse {
+     background-color: transparent; 
+     border-color: transparent; 
+}
+
+.alinear {
+	display: flex;
+    justify-content: space-between;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.footer-text {
+	color: white;
+	font-size: bold;
+}
+
+.footer-text a {
+	color: white;
+	font-size: bold;
+	text-decoration: none;
+}
+
+.footer-text a:hover {
+	color: #ea6231;
+	font-size: bold;
+	text-decoration: none;
+}
+
+
+.footer-logo {
+	margin-bottom: 2em;
+}
+
+#footer-container {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+
+.galerry-text {
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.img-fluid {
+	width: 100%;
+}
+.title-subs {
+	color: #ed7108;
+}
+
+.title-subs h3 {
+	font-size: 36px;
+    margin: 0;
+}
+
+input[name="EMAIL"] {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: none;
+    height: 55px;
+    width: 354px;
+    padding: 9px 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 33px;
+    font-weight: 900;
+    background: transparent;
+    margin-bottom: 0;
+    color: #ea6231;
+    border: 1px solid #be5a06;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+input[name="EMAIL"]:focus {
+    box-shadow: none;
+    border: 1px solid #0f324a!important;
+    background-color: #06243b!important;
+}
+
+.suscribe-container .container {
+	background-color: black;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+input[type="submit"] {
+    padding: 12px 10px 16px;
+    border-radius: 0;
+    background-color: #ed7108;
+    border-color: #ed7108;
+    font-size: 18px;
+    margin-left: 22px;
+    text-transform: uppercase;
+    /*padding: 0 9px;
+    font-size: 12px;
+    line-height: 30px;
+    background: transparent;
+    color: #ea6231;
+    border: 1px solid #ea6231;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 1px;
+    margin-bottom: 0;
+    font-weight: 900;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    height: auto;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    background: #ed7108;
+    border-color: #ed7108;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    border-radius: 0;
+    padding: 12px 33px 11px;
+    font-size: 18px;
+    position: relative;
+    top: -1px;*/
+}
+
+input[type="submit"]:focus {
+    background: #06243b;
+    border: 1px solid #0f324a;
+    color: #ea6231;
+}
