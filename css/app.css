@@ -156,8 +156,35 @@ input[type="submit"]:focus {
     background: url(../images/search-icon.png) no-repeat center transparent;
 }
 
+.circulo {
+    border: 2px solid #ea6231;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.thumbnail {
+    background-color: transparent;
+    border: 0;
+}
+
+.caption h3 {
+    color: #ea6231;
+}
+
+.caption p {
+    color: #b0b0b0;
+}
+
+.contacto-container {
+    padding-top: 3em;
+}
 @media (max-width: 768px) {
 
+ .buscarbox {
+    padding-right: 3em;
+    padding-left: 3em;
+    margin-bottom: 1em;
+    }
 }
     
     
