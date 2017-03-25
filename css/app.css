@@ -233,6 +233,159 @@ input[type="submit"]:focus {
     color: white;
 }
 
+
+/* Contactos*/
+
+.principal-container2 .container {
+    background-color: #000000;
+    padding-bottom: 2em;
+}
+
+.breadcrumb-item.active:before {
+    content: " | " !important;
+    color:#ffffff;
+    font-size: 24px;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: transparent; /*#06243b*/
+}
+
+section#breadcrumbs-container .container {
+    padding-top: 1em;
+    background-color: #06243b;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a.breadcrumb-item {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.breadcrumb-item:hover {
+    color: #ea6231;
+    text-decoration: none;
+}
+
+.breadcrumb>.active {
+    color: #ea6231;
+}
+
+.gmap-container .container {
+    padding: 3em;
+    background-color: #000000;
+}
+
+.contactPrincipal-container .container {
+    background-color: #000000;
+    /*font: bold 12px/18px Lato;*/
+}
+
+.info .text-center {
+    margin-bottom: 1em;
+
+}
+
+.info {
+    color: #ffffff;
+    margin-left: 1em;
+}
+
+.info p {
+    color: #b0b0b0;
+}
+
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+    color: #b0b0b0;
+}
+
+address i {
+    color: #ea6231;
+    padding-right: 2px;
+}
+
+a.correo {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.correo:hover {
+    color: #ea6231;
+    text-decoration: none;
+}
+
+.contactForm h2 {
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.form-group input {
+    background-color: transparent;
+    border-radius: 0;
+    border-color: #ea6231;
+}
+.form-group input:focus {
+    background-color: #06243b;
+    border-radius: 0;
+    border-color: #0f324a;
+    text-decoration: none;
+    outline: none;
+}
+
+.contacto .form-control::-webkit-input-placeholder { color: #ea6231; }
+.contacto .form-control:-moz-placeholder { color: #ea6231; }
+.contacto .form-control::-moz-placeholder { color: #ea6231; }
+.contacto .form-control:-ms-input-placeholder { color: #ea6231; }
+
+.areatext {
+    padding-top: 1em;
+}
+
+.form-group textarea {
+    background-color: transparent;
+    border-radius: 0;
+    border-color: #ea6231;
+}
+.form-group textarea:focus {
+    background-color: #06243b;
+    border-radius: 0;
+    border-color: #0f324a;  
+    text-decoration: none;
+    outline: none;
+}
+
+span.btn.button {
+    border-color:  #ea6231;
+    border-radius: 0;
+    color:  #ea6231;
+}
+
+span.btn.button:hover {
+    border-color:  #0f324a;
+    border-radius: 0;
+    color:  #ea6231;
+    background: #06243b;    
+    text-decoration: none;
+    outline: none;
+}
+
+/*
+    color: #ea6231;
+    background: #06243b;
+    border: 1px solid #0f324a;
+    text-decoration: none;
+    outline: none;
+
+ */
+
 @media (max-width: 768px) {
 
  .buscarbox {
