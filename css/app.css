@@ -377,14 +377,88 @@ span.btn.button:hover {
     outline: none;
 }
 
-/*
+/*Shop Container*/
+
+.resShop-container .container {
+    background-color: #000000;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.textoResult {
+    color: #b0b0b0;
+    font-size: 15px;
+    font-weight: 700;   
+}
+
+.selectMid {
+    padding-top: 0.5em;
+}
+
+.selectShop {
+    box-sizing: border-box;
+    box-shadow: none;
+    background: transparent;
+    border: 1px solid #be5a06;
     color: #ea6231;
-    background: #06243b;
-    border: 1px solid #0f324a;
     text-decoration: none;
     outline: none;
+    padding: 3px 3px;
+    width: 200px;
+}
 
- */
+.selectShop:focus {
+    box-sizing: border-box;
+    box-shadow: none;
+    background: transparent;
+    border: 1px solid #be5a06;
+    color: #ea6231;
+    text-decoration: none;
+    outline: none;
+}
+
+.carshop-container .container {
+    background-color: #000000;
+    padding-top: 2em;
+}
+
+.price {
+    color: #ea6231;
+    font-size: 18px;
+    line-height: 30px;
+    float: none;
+    text-align: center;
+}
+
+.price ins {
+    text-decoration: none;
+}
+
+.description {
+    color: #b0b0b0;
+    padding: 0 0 10px 0;
+}
+
+.thumbnail a {
+    text-decoration: none;
+}
+.pag-container .container {
+    background-color: #000000;
+}
+
+.pagination>li>a {
+    background-color: transparent;
+    border-radius: 0;
+    color: #ffffff;
+    border: solid 1px #ea6231;
+}
+
+.pagination>li>a:hover {
+    background-color: #06243b;
+    border-radius: 0;
+    color: #ea6231;
+    border: solid 1px #ea6231;/**/
+}
 
 @media (max-width: 768px) {
 
